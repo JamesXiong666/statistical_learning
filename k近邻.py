@@ -15,7 +15,7 @@ models = (KNeighborsClassifier(n_neighbors=1, n_jobs=-1),
           KNeighborsClassifier(n_neighbors=2, n_jobs=-1))
 models = (clf.fit(X_train, y_train) for clf in models)
 
-titles = ('K Neighbors with k=1', 'K Neighbors with k=2')
+titles = ('K Neighbors with k=1', 'K Neighbors with k=2')#123
 
 fig = plt.figure(figsize=(15, 5))
 plt.subplots_adjust(wspace=0.4, hspace=0.4)
