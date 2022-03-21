@@ -27,3 +27,6 @@ def fab(max):
         n = n+1
 for n in fab(5):
     print(n)
+
+
+# 执行函数时，遇到yield就会中止操作，下次执行函数时从yield后面执行，知道遇到yield停止运行
